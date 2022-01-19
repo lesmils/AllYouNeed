@@ -100,6 +100,7 @@ app.get("/height/:height", (request, response) => {
   response.send(patientsByHeight)
 })
 
+/*
 app.get(
   '/externalHTML', 
  (request, response) => {     // handler callback, whenever request is made, this happens
@@ -107,3 +108,4 @@ app.get(
     response.sendFile('/home/milton/Code/day3notes/index.html'); //use path, create HTML file
   }
 )
+*/
